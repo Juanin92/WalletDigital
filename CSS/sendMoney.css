@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(195,34,34);
+    background: linear-gradient(68deg, rgba(195,34,34,1) 0%, rgba(66,45,253,1) 100%);
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a i{
+  font-size: 20px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+}
+#searchContact{
+  text-align: center;
+  padding-right: 20px;
+  color: white;
+}
+#transfer{
+  flex: 2;
+  padding-right: 20px;
+  padding-top: 50px;
+  color: white;
+}
+#transfer h2{
+  text-align: center;
+}
+#transfer h3{
+  text-align: center;
+}
+#sendMoney{
+  flex: 3;
+  text-align: center;
+  padding-right: 20px;
+  color: white;
+}
+#sendMoney sendMoneyButton{
+  flex: 2;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 80px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(5px);
+}
+  
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.modal-header {
+  padding: 2px 16px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.modal-header h2{
+  position: absolute;
+  left: 150px;
+}
+  
+.modal-body {padding: 2px 16px;}
+  
+.modal-footer {
+    padding: 2px 16px;
+    margin: -3px -17px;
+    background-color:black;
+    color: white;
+    justify-content: center;
+}
+  

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(195,34,34);
+    background: linear-gradient(68deg, rgba(195,34,34,1) 0%, rgba(66,45,253,1) 100%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px ;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}  
+
+#formLogin{
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 14px;
+  border-radius: 30px;
+  font-family: ui-monospace;
+  box-shadow: 20px 15px 40px black;
+  border: 3px solid rgba(255,255,255,0.3);
+  backdrop-filter: blur(5px);
+}
+
+.form-control{
+  width: 100%;
+  height: 55px;
+  padding: 0 15px;
+  margin: 10px 0;
+  font-size: 20px;
+  color: white;
+  border:none;
+}
+
+::placeholder{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: black;
+  font-weight: bold;
+}
+
+.form-group .bxs-envelope{
+  font-size: xx-large;
+  position: absolute;
+  top:100px;
+  right: 50px;
+}
+.form-group .bx-lock-alt{
+  font-size: xx-large;
+  position: absolute;
+  top:165px;
+  right: 50px;
+}
+
+.form-group button{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    padding: 14px;
+    border: none;
+    background: #2706e4;
+    color: white;
+    font-size: 15px;
+}
+
+.form-group button:hover {
+  cursor: pointer;
+  background: #2b91f1;
+}

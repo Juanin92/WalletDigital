@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(195,34,34);
+    background: linear-gradient(68deg, rgba(195,34,34,1) 0%, rgba(66,45,253,1) 100%);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header a i{
+    font-size: 20px;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+main{
+    padding-top: 50px;
+}
