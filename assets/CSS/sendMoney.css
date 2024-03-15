@@ -24,7 +24,7 @@ header a i{
   justify-content: center;
   align-items:center;
 }
-#searchContact{
+#searchContactWeb{
   text-align: center;
   padding-right: 20px;
   color: white;
@@ -65,9 +65,12 @@ header a i{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
   
   .modal-content {
+    justify-content: center;
+    text-align: center;
     position: relative;
     background-color: #fefefe;
     margin: auto;
@@ -79,6 +82,18 @@ header a i{
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
+  }
+  .modal-content input{
+    width: 100%;
+    padding: auto;
+    margin: 10px 5px;
+  }
+  .modal-content label,select{
+    margin-bottom: 10px;
+  }
+  .modal-content button{
+    width: 100%;
+    padding-top: 10px;
   }
   
   /* Add Animation */
